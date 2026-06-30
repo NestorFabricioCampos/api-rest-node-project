@@ -1,5 +1,13 @@
 # API RESTfull
 
+## Technologies:
+
+Node.
+Javascript.
+HTML.
+Express.
+Firebase.
+
 ## Create Product
 
 method: POST
@@ -10,8 +18,11 @@ body:
 
 ```json
 {
-  "title": "Producto 1",
-  "price": 100
+  "id": 1,
+  "description": "Producto 1",
+  "price": 100.99,
+  "stock": 15,
+  "title": "Producto 1"  
 }
 ```
 
@@ -20,8 +31,10 @@ response:
 ```json
 {
   "id": 1,
-  "title": "Producto 1",
-  "price": 100
+  "description": "Producto 1",
+  "price": 100.99,
+  "stock": 15,
+  "title": "Producto 1"  
 }
 ```
 

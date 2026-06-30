@@ -18,7 +18,6 @@ body:
 
 ```json
 {
-  "id": 1,
   "description": "Producto 1",
   "price": 100.99,
   "stock": 15,
@@ -30,7 +29,7 @@ response:
 
 ```json
 {
-  "id": 1,
+  "id": "dnz3EeB30StnZmsehy9C",
   "description": "Producto 1",
   "price": 100.99,
   "stock": 15,
